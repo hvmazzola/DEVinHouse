@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Exercício 04</title>
+</head>
+<body>
+  <main>
+    <h1>Formulário de Cadastro</h1>
+    <div id="contorno">
+      <span>Preencha os dados</span>
+      <div id="form">
+        <form action="">
+          <div class="input">
+            <label for="nome">Nome:</label>
+            <input
+              type="text"
+              name='nome'
+              id='nome'
+              placeholder='Digite seu nome'
+            />
+          </div>
+          <div class="input">
+            <label for="data-nascimento">Data de Nascimento:</label>
+            <input
+              type="date"
+              name='data-nascimento'
+              id='data-nascimento'
+              placeholder='Digite sua data de nascimento'
+            />
+          </div>
+          <div class="input">
+            <label for="cpf">CPF:</label>
+            <input
+              type="text"
+              name='cpf'
+              id='cpf'
+              placeholder='Digite seu CPF'
+            />
+          </div>
+          <div class="input">
+            <label for="municipio">Município:</label>
+            <select name='municipio' id='municipio'>
+              <option value="">Selecione seu município</option>
+              <option value="florianopolis">Florianópolis</option>
+              <option value="biguacu">Biguaçu</option>
+              <option value="sao-jose">São José</option>
+              <option value="palhoca">Palhoça</option>
+            </select>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
