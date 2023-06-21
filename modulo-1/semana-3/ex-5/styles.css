@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: black;
+}
+
+:root {
+  --background-gradient: linear-gradient(103deg, rgba(0,0,0,1) 0%, rgba(22,22,31,1) 27%, rgba(21,23,36,1) 86%);
+  --border-light: rgb(69, 87, 104);
+}
+
+header {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  height: 40px;
+  align-items: center;
+  position: fixed;
+}
+
+#titulo {
+  font-weight: 700;
+  color: red;
+  width: 50%;
+  margin-left: 10px;
+}
+
+#select-button {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+select {
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  margin-right: 10px;
+}
+
+#entrar {
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 12px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+main {
+  padding-top: 50px;
+  background-color: black;
+  color: white;
+}
+
+#pesquisar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#pesquisar h4, h6 {
+  font-weight: 300;
+  margin-bottom:10px
+}
+
+#pesquisar h4 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+#search {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+#button-search {
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.mkt {
+  background-color: black;
+  background: var(--background-gradient);
+  border-top: 2px solid var(--border-light);
+  width: 100%;
+}
+
+.alinhamento {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+  padding: 15px 0px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.texts h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.texts h4 {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+#img-1 {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+#img-2 {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+img {
+  width: 150px;
+  height: auto;
+}
+
+#vantagens {
+  background-color: black;
+  background: var(--background-gradient);
+  border-top: 2px solid var(--border-light);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+#vantagens h2 {
+  font-size: 20px;
+  margin: 25px 0px;
+}
+
+#vantagens span {
+  background-color: rgb(73, 73, 73);
+  width: 15%;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 5px;
+  padding: 2px;
+}
+
+footer {
+  display: flex;
+  border-top: 2px solid var(--border-light);
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  width: 100%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+footer div span {
+  padding-bottom: 8px;
+}
