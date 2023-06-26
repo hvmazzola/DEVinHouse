@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  background-color: rgb(73, 73, 241);
+  color: white;
+  width: 100%;
+  height: 50px;
+}
+
+#cabecalho {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+#spans-header {
+  display: flex;
+  align-self: center;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.clicker {
+  cursor: pointer;
+}
