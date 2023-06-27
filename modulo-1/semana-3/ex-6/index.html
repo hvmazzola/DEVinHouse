@@ -8,66 +8,69 @@
   <title>Execício 06</title>
 </head>
 <body>
+  <header>
+    <div class="cabecalho">
+      <h2 class="clicker">VIAJE-TECH</h2>
+      <div id="spans-header">
+        <span class="clicker">Destinos</span>
+        <span class="clicker">Pacotes</span>
+        <span class="clicker">Sobre nós</span>
+        <span class="clicker">Contato</span>
+      </div>
+    </div>
+  </header>
   <main>
-    <header>
-      <div id="cabecalho">
-        <h2 class="clicker">VIAJE-TECH</h2>
-        <div id="spans-header">
-          <span class="clicker">Destinos</span>
-          <span class="clicker">Pacotes</span>
-          <span class="clicker">Sobre nós</span>
-          <span class="clicker">Contato</span>
-        </div>
-      </div>
-    </header>
     <section>
-      <div>
-        <img src="" alt="">
+      <div class="proposta">
+        <img src="https://i0.wp.com/observasctur.fecomercio-sc.com.br/wp-content/uploads/2020/08/Grande-Florian%C3%B3polis-2.png?fit=698%2C450&ssl=1" alt="Florianópolis">
         <h3>Florianópolis</h3>
-        <div>
+        <div class="preco">
           <div>
             <span>Preço a partir de</span>
-            <span>BTC 0,145242</span>
+            <span class="btc">BTC 0,145242</span>
           </div>
           <button>Visualizar >></button>
         </div>
       </div>
-      <div>
-        <img src="" alt="">
+      <div class="proposta">
+        <img src="https://media.staticontent.com/media/pictures/04641818-297a-4f28-b635-b15e2fb31087" alt="Curitiba">
         <h3>Curitiba</h3>
-        <div>
+        <div class="preco">
           <div>
             <span>Preço a partir de</span>
-            <span>BTC 0,13876</span>
+            <span class="btc">BTC 0,13876</span>
           </div>
           <button>Visualizar >></button>
         </div>
       </div>
-      <div>
-        <img src="" alt="">
+      <div class="proposta">
+        <img src="https://veja.abril.com.br/wp-content/uploads/2023/06/Planeta-Tatooine-Star-Wars.jpg?quality=90&strip=info&w=1280&h=720&crop=1" alt="Tatooine">
         <h3>Tatooine</h3>
-        <div>
+        <div class="preco">
           <div>
             <span>Preço a partir de</span>
-            <span>BTC 2,6756</span>
+            <span class="btc">BTC 2,6756</span>
           </div>
           <button>Visualizar >></button>
         </div>
-      </div>
-      <div>
-        <input type="text" placeholder="Informe a Origem">
-        <input type="text" placeholder="Informe o Destino">
-        <label for="ida">Ida</label>
-        <input type="date" id="ida">
-        <label for="volta">Volta</label>
-        <input type="date" id="volta">
-        <button>Procurar</button>
       </div>
     </section>
-    <footer>
+    <div id="search">
+      <input type="text" placeholder="Informe a Origem" class="text">
+      <span style="font-size: 20px;">➡</span>
+      <input type="text" placeholder="Informe o Destino" class="text">
+      <label for="ida">Ida</label>
+      <input type="date" id="ida" class="date">
+      <label for="volta">Volta</label>
+      <input type="date" id="volta" class="date">
+      <button>Procurar</button>
+    </div>
+  </main>
+  <footer>
+    <div class="cabecalho">
       <h2>VIAJE-TECH</h2>
-      <span>(c) 2022 Agência de Turismo - Rua Max Cavalera nº673, 20º andar, CEp 42352345252 Transilvânia-SC - CNPJ: 55.555.55/0001-55</span>
-    </footer>
-  </main>  
+      <span id="trademark">(c) 2022 Agência de Turismo - Rua Max Cavalera nº673, 20º andar, CEp 42352345252 Transilvânia-SC - CNPJ: 55.555.55/0001-55</span>
+    </div>
+  </footer> 
 </body>
 </html>
